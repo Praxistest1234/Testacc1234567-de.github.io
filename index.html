@@ -19,6 +19,7 @@
 	#map {
   		width: 100%;
    		height: 400px;
+		background-color: grey;
  	}
 	@font-face {
 		font-display: swap;
@@ -534,17 +535,8 @@
 				</div>
 				
 				<div class="col-xl-6 col-lg-12 col-md-12 col-sm-6 col-12">
-					<div id="Map"></div>
-					<script>
-						var map;
-					      	function initMap() {
-						map = new google.maps.Map(document.getElementById('map'), {
-						  center: {lat: -34.397, lng: 150.644},
-						  zoom: 8
-						});
-					      }
-					</script>
-					<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+					<div id="map">
+					</div>
 				</div>
 				<div class="col-xl-1 col-lg-0 col-md-0 col-sm-0 col-0">
 				</div>
