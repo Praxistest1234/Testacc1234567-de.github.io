@@ -1,0 +1,91 @@
+	/*General*/
+	body, html {
+		height: 100%;
+		margin: 0;
+	}
+	.bg-grey {
+		background-color: #f6f6f6;
+	}
+	
+	@media only screen and (max-device-width: 320px) {
+		h4 {
+			font-size: 10px;
+		}
+	}
+	/*parallax effect*/
+	.parallax {
+		/* The image used */
+		background-image: url("../images/background.jpg");
+		/* Full height */
+		height: 100%; 
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+	@media only screen and (max-device-width: 1366px) {
+		.parallax {
+			background-attachment: scroll;
+		}
+
+	}
+	
+	/*Parallax caption*/
+	.caption {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		top: 40%;
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	
+	/*Content*/
+	.container-fluid {
+		padding-left: 50px;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+	.container-fluid p{
+		padding-left: 10px;
+	}
+	.titleleft{
+		padding-top: 45px;
+		padding-left: 10px;
+	}
+	.container-fluid h4{
+		padding-left: 10px;
+	}
+	.container-fluid h5{
+		padding-left: 10px;
+	}
+	.container-fluid .col-sm-8 p{ /*work*/
+		padding-top: 0px;
+		padding-bottom:0px;
+	}
+	.container-fluid .col-sm-8 h4{ /*work*/
+		padding-top: 20px;
+		padding-bottom:0px;
+	}
+
+	@media screen and (max-width: 768px) {
+		.col-sm-4 {
+			text-align: center;
+			margin: 25px 0;
+		}
+	}
+	.img-fluid {
+		padding-top: 0px;
+		padding-right: 0px;
+	}
+	.title {
+		text-align: center;
+		padding-bottom: 10px;
+		padding-top: 45px;
+	}
+	.team{
+		padding-top: 40px;
+	}
