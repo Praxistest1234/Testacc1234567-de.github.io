@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-	<title>Unternehmen</title>
+	<title>Praxis am Park</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preload" href="bootstrap4/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -18,33 +18,46 @@
 <style>
 	#map {
   		width: 100%;
-   		height: 400px;
+   		height: 410px;
 		background-color: grey;
  	}
 	@font-face {
 		font-display: swap;
 	}
-	@media only screen and (device-width: 320px) {
+	
+	@media only screen (device-width: 320px) {
+		h4 {
+			font-size: 15px;
+		}
+		h3 {
+			font-size: 20px;
+		}
 		h2 {
 			font-size: 25px;
 		}
 	}
 	
-	@media only screen and (max-device-width: 360px) {
+	@media only screen and (device-width: 360px) {
 		h4 {
 			font-size: 15px;
 		}
 		h3 {
 			font-size: 23px;
 		}
+		h2 {
+			font-size: 20px;
+		}
 	}
 	
 	@media only screen and (device-width: 375px) {
 		h4 {
-			font-size: 19px;
+			font-size: 17.25px;
 		}
 		h3 {
-			font-size: 25px;
+			font-size: 18px;
+		}
+		h2 {
+			font-size: 20px;
 		}
 	}
 	@media only screen and (device-width: 384px) {
@@ -54,32 +67,47 @@
 		h3 {
 			font-size: 25px;
 		}
-	}
-	@media only screen and (device-width: 414px) {
-		h4 {
-			font-size: 22px;
-		}
-		h3 {
-			font-size: 26px;
+		h2 {
+			font-size: 20px;
 		}
 	}
-	@media only screen and (device-width: 412px) {
-		h4 {
-			font-size: 22px;
-		}
-		h3 {
-			font-size: 26px;
-		}
-	}
+	
 	@media only screen and (device-width: 411px) {
 		h4 {
-			font-size: 22px;
+			font-size: 18px;
+		}
+		h3 {
+			font-size: 19px;
+		}
+		h2 {
+			font-size: 20px;
+		}
+	}
+	
+	@media only screen and (device-width: 414px) {
+		h4 {
+			font-size: 19px;
 		}
 		h3 {
 			font-size: 26px;
 		}
+		h2 {
+			font-size: 20px;
+		}
 	}
+	@media screen and (max-width: 768px) {
+		.col-sm-4 {
+			text-align: center;
+			margin: 25px;
+		}
+	}
+	
+	@media only screen and (max-device-width: 1366px) {
+		.parallax {
+			background-attachment: scroll;
+		}
 
+	}
 	/* change the background color */
 	.navbar-custom {
 		background-color: grey;
@@ -108,7 +136,7 @@
 	<div class="parallax">
 	
 		<nav class="navbar navbar-expand-lg navbar-dark navbar-custom p-0 fixed-top">
-				<a class="navbar-brand" href="#homepage" style="padding-left: 50px;">Unternehmen</a>
+				<a class="navbar-brand" href="#homepage" style="padding-left: 50px;">Praxis am Park</a>
 				<button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="#myNavbar" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -125,12 +153,12 @@
 		</nav>
 		
 		<div class="caption">
-			<h1 style="font-family: 'Norican';font-size: 48px;padding-bottom: 20px;">Unternehmen</h1>
-			<h4>Person 1</h4>
-			<h4 style="margin-top: 10px;">Person 2</h4>
-			<h5>Berufsbezeichnung</h5>
-			<h5>Addresse</h5>
-			<h5 style="margin-top: 10px;">Telefon</h5>
+			<h1 style="font-family: 'Norican';font-size: 48px;padding-bottom: 20px;">Praxis am Park</h1>
+			<h4>Dr. med. Volker Ellensohn</h4>
+			<h4 style="margin-top: 10px;">Dr. med. Fuat Güney</h4>
+			<h5>Fachärzte für Gynäkologie und Geburtshilfe FMH</h5>
+			<h5>Museumstrasse 33</h5>
+			<h5 style="margin-top: 10px;">Tel: 071 / 245 37 37</h5>
 			
 		</div>	
 		
@@ -195,8 +223,8 @@
 						<img alt="" class="img-fluid lazyload" data-src="images/Arzt.jpg">
 					</div>
 					<div class="col-lg-7 col-md-6 col-sm-6 col-6">
-						<h2>Person 1</h2>
-						<h4>Berufsbezeichnung</h4>
+						<h2>Dr. med. Volker Ellensohn</h2>
+						<h4>Spezialarzt für Gynäkologie</h4>
 						<h4><a href="Werdegang/Werdegang.html">Werdegang</a></h4>
 					</div>
 					<div class="col-lg-0 col-md-0 col-sm-0 col-12">
@@ -214,8 +242,8 @@
 						<img alt="" class="img-fluid lazyload" data-src="images/Arzt2.jpg">
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-5 col-6">
-						<h2>Person 2</h2>
-						<h4>Berufsbezeichnung</h4>
+						<h2>Dr. med. Fuat Güney</h2>
+						<h4>Spezialarzt für Gynäkologie</h4>
 					</div>
 					<div class="col-lg-1 col-md-0 col-sm-0 col-0">
 					</div>
@@ -433,7 +461,7 @@
 				<h4>Telefon:</h4>
 			</div>
 			<div class="col-xl-7 col-lg-7 col-md-8 col-sm-7 col-9">
-				<h4><a href="tel:01234567890">01234567890</a></h4>
+				<h4><a href="tel:00410712453737">071 / 245 37 37</a></h4>
 			</div>
 		</div>
 		
@@ -443,7 +471,7 @@
 				<h4>Fax:</h4>
 			</div>
 			<div class="col-xl-7 col-lg-7 col-md-8 col-sm-7 col-9">
-				<h4>01234567890</h4>
+				<h4>071 / 244 11 37</h4>
 			</div>
 		</div>
 		
@@ -453,7 +481,7 @@
 				<h4>E-Mail:</h4>
 			</div>
 			<div class="col-xl-7 col-lg-7 col-md-8 col-sm-7 col-9">
-				<h4><a href="mailto:testemail@gmail.com">testemail@gmail.com</a></h4>
+				<h4><a href="mailto:praxis.dr.ellensohn@hin.ch">praxis.dr.ellensohn@hin.ch</a></h4>
 			</div>
 		</div>
 		
@@ -463,7 +491,7 @@
 			<div class="col-xl-3 col-lg-0 col-md-2 col-sm-1 col-0">
 			</div>
 			<div class="col-xl-8 col-lg-12 col-md-9 col-sm-11 col-12">
-				<h4>Extrainformationen, sonst wegstreichen</h4>
+				<h4>In Notfällen ist Herr Dr. Ellensohn auch über die Klinik Stephanshorn zu erreichen.</h4>
 			</div>
 			<div class="col-xl-1 col-lg-0 col-md-2 col-sm-0 col-0">
 			</div>
@@ -488,7 +516,7 @@
 							<h4>Anschrift:</h4>
 						</div>
 						<div class="col-xl-8 col-lg-8 col-md-9 col-sm-9 col-9">
-							<h4>Strasse</h4>
+							<h4>Museumstrasse 33</h4>
 						</div>
 					</div>
 					
@@ -496,7 +524,7 @@
 						<div class="col-xl-4 col-lg-4 col-md-3 col-sm-3 col-3">
 						</div>
 						<div class="col-xl-8 col-lg-8 col-md-9 col-sm-9 col-9">
-							<h4>Postleitzahl</h4>
+							<h4>9000 St. Gallen</h4>
 						</div>
 					</div>
 					
@@ -506,7 +534,7 @@
 							<h4>Telefon:</h4>
 						</div>
 						<div class="col-xl-8 col-lg-8 col-md-9 col-sm-9 col-9">
-							<h4><a href="tel:01234567890">01234567890</a></h4>
+							<h4><a href="tel:00410712453737">071 / 245 37 37</a></h4>
 						</div>
 					</div>
 					
@@ -516,7 +544,7 @@
 							<h4>Fax:</h4>
 						</div>
 						<div class="col-xl-8 col-lg-8 col-md-9 col-sm-9 col-9">
-							<h4>01234567890</h4>
+							<h4>071 / 244 11 37</h4>
 						</div>
 					</div>
 					
@@ -526,7 +554,7 @@
 							<h4>E-Mail:</h4>
 						</div>
 						<div class="col-xl-8 col-lg-8 col-md-9 col-sm-9 col-9">
-							<h4><a href="mailto:testemail@gmail.com">testemail@gmail.com</a></h4>
+							<h4><a href="mailto:praxis.dr.ellensohn@hin.ch">praxis.dr.ellensohn@hin.ch</a></h4>
 						</div>
 					</div>
 					<div class="col-xl-0 col-lg-0 col-md-12 col-sm-0 col-12">

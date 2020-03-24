@@ -6,12 +6,7 @@
 	.bg-grey {
 		background-color: #f6f6f6;
 	}
-	
-	@media only screen and (max-device-width: 320px) {
-		h4 {
-			font-size: 10px;
-		}
-	}
+
 	/*parallax effect*/
 	.parallax {
 		/* The image used */
@@ -24,12 +19,6 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		position: relative;
-	}
-	@media only screen and (max-device-width: 1366px) {
-		.parallax {
-			background-attachment: scroll;
-		}
-
 	}
 	
 	/*Parallax caption*/
@@ -71,12 +60,6 @@
 		padding-bottom:0px;
 	}
 
-	@media screen and (max-width: 768px) {
-		.col-sm-4 {
-			text-align: center;
-			margin: 25px 0;
-		}
-	}
 	.img-fluid {
 		padding-top: 0px;
 		padding-right: 0px;
